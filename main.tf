@@ -6,3 +6,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
+output "region" {
+  value = "us-east-1"
+}
